@@ -17,14 +17,14 @@ namespace CuidadoresEmpresarial.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Descrição da nossa página ...";
+            ViewData["Message"] = "Sugestão para descrição da nova página web ...";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Página de contatos...";
+            ViewData["Message"] = "Incluir os dados dos contatos, opcional ...";
 
             return View();
         }
